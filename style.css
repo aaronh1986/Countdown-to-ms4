@@ -1,0 +1,23 @@
+body {
+    background: linear-gradient(to left, black, red);
+    color: #FFD700;
+}
+
+.countdown-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    border: 2px solid #fe5a1d;
+    padding: 15px;
+    box-shadow: 0 0 5px 2px black; 
+}
+
+.info {
+    font-size: 80px;
+}
+
+.time {
+    font-size: 40px;
+}
